@@ -12,26 +12,48 @@ angular.module('ngTextareaEnter', []).directive('ngTextareaEnter', function() {
 
 			// Detecting key down event
 			elem.bind('keydown', function(event) {
-		    	var code = event.keyCode || event.which;
+				
+				var code = event.keyCode || event.which;
 
-		    	// Detecting enter key press
-		       	if (code === 13) {
+				// Detecting enter key press
+				if (code === 13) {
 
-		       		// Checking element to be textarea
-		       		if(elem[0].type == 'textarea') {
+					// Checking element to be textarea
+					if(elem[0].type == 'textarea') {
 
-		       			// Checking scope model to be valid
-		       			if(scope[attrs.ngModel] != undefined && scope[attrs.ngModel] != '') {
+						// used to get path for controllerAs syntax
+						function path(obj, path, def) {
+								var i, len;
 
-		       				// Detecting shift/ctrl/alt key press
-				       		if (!event.shiftKey && !event.ctrlKey && !event.altKey) {
-				           		event.preventDefault();
-				               	scope.$apply(attrs.ngTextareaEnter);
-				            }
-		       			}
-		       		}
-		       	}
-		    });
+								for(i = 0,path = path.split('.'), len = path.length; i < len; i++) {
+										if(!obj || typeof obj !== 'object') return def;
+										obj = obj[path[i]];
+								}
+
+								if(obj === undefined) return def;
+								return obj;
+						}
+
+						// Determine scope model
+						var ngModel = path(scope, attrs.ngModel);
+
+						// Checking scope model to be valid
+						if(ngModel !== undefined && ngModel !== '') {
+
+							// Detecting shift/ctrl/alt key press
+							if (!event.shiftKey && !event.ctrlKey && !event.altKey) {
+								event.preventDefault();
+								scope.$apply(attrs.ngTextareaEnter);
+							}
+
+						}
+
+					}
+
+				}
+
+			});
+
 		}
 	}
 });
