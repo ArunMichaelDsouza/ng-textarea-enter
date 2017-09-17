@@ -1,7 +1,7 @@
 {
   "name": "ng-textarea-enter",
-  "version": "0.2.1",
-  "description": "AngularJS Module to enable action trigger for textarea on pressing the 'enter' key",
+  "version": "0.2.2",
+  "description": "Execute a function on pressing the enter key in a textarea.",
   "main": "build/ng-textarea-enter.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

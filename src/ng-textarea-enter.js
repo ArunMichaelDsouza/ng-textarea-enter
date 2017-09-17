@@ -1,5 +1,5 @@
 /*
-    ng-textarea-enter v0.2.1
+    ng-textarea-enter v0.2.2
     Copyright (c) 2016 Arun Michael Dsouza (amdsouza92@gmail.com)
     Licence: MIT
     Demo on CodePen - http://codepen.io/amdsouza92/pen/pyNMjQ
