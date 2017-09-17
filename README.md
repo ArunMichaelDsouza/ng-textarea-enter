@@ -1,4 +1,4 @@
-# ng-textarea-enter [![npm version](https://badge.fury.io/js/ng-textarea-enter.svg)](https://badge.fury.io/js/ng-textarea-enter) [![NPM Downloads](https://img.shields.io/npm/dm/ng-textarea-enter.svg?style=flat-square)](https://www.npmjs.com/package/ng-textarea-enter) [![Latest Stable Version](https://img.shields.io/bower/v/ng-textarea-enter.svg?style=flat-square)](http://bower.io/search/?q=ng-textarea-enter)
+# ng-textarea-enter [![npm version](https://badge.fury.io/js/ng-textarea-enter.svg)](https://badge.fury.io/js/ng-textarea-enter) [![NPM Downloads](https://img.shields.io/npm/dm/ng-textarea-enter.svg?style=flat-square)](https://www.npmjs.com/package/ng-textarea-enter) [![Latest Stable Version](https://img.shields.io/bower/v/ng-textarea-enter.svg?style=flat-square)](http://bower.io/search/?q=ng-textarea-enter) [![](https://data.jsdelivr.com/v1/package/npm/ng-textarea-enter/badge)](https://www.jsdelivr.com/package/npm/ng-textarea-enter)
 
 AngularJS Module to enable action trigger for textarea on pressing the ``enter`` key. 
 
