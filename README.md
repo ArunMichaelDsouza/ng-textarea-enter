@@ -1,8 +1,8 @@
 # ng-textarea-enter [![npm version](https://badge.fury.io/js/ng-textarea-enter.svg)](https://badge.fury.io/js/ng-textarea-enter) [![NPM Downloads](https://img.shields.io/npm/dm/ng-textarea-enter.svg?style=flat-square)](https://www.npmjs.com/package/ng-textarea-enter) [![Latest Stable Version](https://img.shields.io/bower/v/ng-textarea-enter.svg?style=flat-square)](http://bower.io/search/?q=ng-textarea-enter) [![](https://data.jsdelivr.com/v1/package/npm/ng-textarea-enter/badge)](https://www.jsdelivr.com/package/npm/ng-textarea-enter)
 
-AngularJS Module to enable action trigger for textarea on pressing the ``enter`` key. 
+Execute a function on pressing the ``enter`` key in a ``textarea``.
 
-It removes the default behaviour of creating a new line, when ``enter`` key is pressed against any textarea element, instead as soon as the ``enter`` key is pressed, the method attached to the directive can be called and can be used to access the model associated with the textarea element. 
+It removes the default behaviour of creating a new line break, when ``enter`` key is pressed against any textarea element, instead as soon as the ``enter`` key is pressed, the method attached to the directive can be called and can be used to access the model associated with the textarea element. 
 
 To create usual newlines, a combination of ``shift+enter``, ``ctrl+enter`` and ``alt+enter`` keys can be used.
 
