@@ -22,7 +22,7 @@ angular.module('ngTextareaEnter', []).directive('ngTextareaEnter', function() {
                     if (elem[0].type == 'textarea') {
 
                         // used to get path for controllerAs syntax
-                        function path(obj, path, def) {
+                        path = function(obj, path, def) {
                             var i, len;
 
                             for (i = 0, path = path.split('.'), len = path.length; i < len; i++) {
