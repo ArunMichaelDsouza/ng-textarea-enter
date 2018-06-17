@@ -1,3 +1,5 @@
+<img src="https://github.com/ArunMichaelDsouza/ng-textarea-enter/raw/master/icon.png" width="300" height="auto" alt="ng-textarea-enter icon"/>
+
 # ng-textarea-enter [![npm version](https://badge.fury.io/js/ng-textarea-enter.svg)](https://badge.fury.io/js/ng-textarea-enter) [![NPM Downloads](https://img.shields.io/npm/dm/ng-textarea-enter.svg?style=flat-square)](https://www.npmjs.com/package/ng-textarea-enter) [![Latest Stable Version](https://img.shields.io/bower/v/ng-textarea-enter.svg?style=flat-square)](http://bower.io/search/?q=ng-textarea-enter) [![](https://data.jsdelivr.com/v1/package/npm/ng-textarea-enter/badge)](https://www.jsdelivr.com/package/npm/ng-textarea-enter)
 
 Execute a function on pressing the ``enter`` key in a ``textarea``.
@@ -56,6 +58,11 @@ myApp.controller('myCtrl', ['$scope', function($scope) {
 ```
 
 Now everytime ``enter`` key is pressed against this textarea, the ``textareaAction()`` will be called, no newline will be created. In this case it is logging the value of scope variable ``textareaModel`` out to the console.
+
+## Contributors
+
+| [<img src="https://avatars3.githubusercontent.com/u/4924614" width="100px;"/><br /><sub><b>Arun Michael Dsouza</b></sub>](https://github.com/ArunMichaelDsouza)<br />| [<img src="https://avatars0.githubusercontent.com/u/6951209" width="100px;"/><br /><sub><b>Eduardo Aleixo</b></sub>](https://github.com/eh-am)<br />| [<img src="https://avatars0.githubusercontent.com/u/15611832" width="100px;"/><br /><sub><b>Lukas Drgon</b></sub>](https://github.com/LukasDrgon)<br /> |
+| :---: | :---: | :---: |
 
 ## License
 
