@@ -1,6 +1,6 @@
 {
   "name": "ng-textarea-enter",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Execute a function on pressing the enter key in a textarea.",
   "main": "build/ng-textarea-enter.min.js",
   "scripts": {

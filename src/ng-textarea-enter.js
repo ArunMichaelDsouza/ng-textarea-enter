@@ -1,17 +1,17 @@
 /*
-    ng-textarea-enter v0.2.4
+    ng-textarea-enter v0.2.5
     Copyright (c) 2016 Arun Michael Dsouza (amdsouza92@gmail.com)
     Licence: MIT
     Demo on CodePen - http://codepen.io/amdsouza92/pen/pyNMjQ
 */
 "use strict";
-angular.module('ngTextareaEnter', []).directive('ngTextareaEnter', function() {
+angular.module('ngTextareaEnter', []).directive('ngTextareaEnter', function () {
     return {
         restrict: 'A',
-        link: function(scope, elem, attrs) {
+        link: function (scope, elem, attrs) {
 
             // Detecting key down event
-            elem.bind('keydown', function(event) {
+            elem.bind('keydown', function (event) {
 
                 var code = event.keyCode || event.which;
 
@@ -22,7 +22,7 @@ angular.module('ngTextareaEnter', []).directive('ngTextareaEnter', function() {
                     if (elem[0].type == 'textarea') {
 
                         // used to get path for controllerAs syntax
-                        var path = function(obj, path, def) {
+                        var path = function (obj, path, def) {
                             var i, len;
 
                             for (i = 0, path = path.split('.'), len = path.length; i < len; i++) {
