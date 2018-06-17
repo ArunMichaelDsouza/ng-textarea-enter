@@ -1,4 +1,4 @@
-<img src="https://github.com/ArunMichaelDsouza/ng-textarea-enter/raw/master/icon.png" width="300" height="auto" alt="ng-textarea-enter icon"/>
+<img src="https://github.com/ArunMichaelDsouza/ng-textarea-enter/raw/master/icon.png" width="250" height="auto" alt="ng-textarea-enter icon"/>
 
 # ng-textarea-enter [![npm version](https://badge.fury.io/js/ng-textarea-enter.svg)](https://badge.fury.io/js/ng-textarea-enter) [![NPM Downloads](https://img.shields.io/npm/dm/ng-textarea-enter.svg?style=flat-square)](https://www.npmjs.com/package/ng-textarea-enter) [![Latest Stable Version](https://img.shields.io/bower/v/ng-textarea-enter.svg?style=flat-square)](http://bower.io/search/?q=ng-textarea-enter) [![](https://data.jsdelivr.com/v1/package/npm/ng-textarea-enter/badge)](https://www.jsdelivr.com/package/npm/ng-textarea-enter)
 
@@ -17,7 +17,7 @@ To create usual newlines, a combination of ``shift+enter``, ``ctrl+enter`` and `
 Use ng-textarea-enter directly from jsdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/ng-textarea-enter@0.2.5/build/ng-textarea-enter.min.js
+https://cdn.jsdelivr.net/npm/ng-textarea-enter@0.2.6/build/ng-textarea-enter.min.js
 ```
 
 #### via bower
