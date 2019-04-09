@@ -19,7 +19,7 @@ To create usual newlines, a combination of ``shift+enter``, ``ctrl+enter`` and `
 Use ng-textarea-enter directly from jsdelivr CDN
 
 ```html
-https://cdn.jsdelivr.net/npm/ng-textarea-enter@0.2.6/build/ng-textarea-enter.min.js
+https://cdn.jsdelivr.net/npm/ng-textarea-enter@0.2.7/build/ng-textarea-enter.min.js
 ```
 
 #### via bower
